@@ -1,0 +1,53 @@
+body {
+	margin: 20px;
+	background-color: black;
+	color: white;
+	font-family: Raleway;
+}
+
+header h1{
+	text-align: center;
+}
+
+#contenido {
+	display: flex;
+	flex-direction: column;
+}
+
+#contenido > h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+
+img{
+	border: 2px solid white;
+	width: 200px;
+}
+
+.contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+
+#imagen1 img{
+    webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+
+#imagen2 img{
+    webkit-filter: blur(10px);
+    filter: blur(3px);
+}
